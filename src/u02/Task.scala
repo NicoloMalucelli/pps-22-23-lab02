@@ -53,7 +53,7 @@ object Task extends App{
 
   // Task 2b
 
-  val p1 : Int=>Int=>Int => Boolean =  x => y => z => x <= y && y == z
+  val p1 : Int => Int => Int => Boolean =  x => y => z => x <= y && y == z
 
   println("____TEST p1____")
   println(p1(1)(2)(2)==true)
